@@ -1,4 +1,4 @@
-Download apache spark and getting started
+# Chapter 2: Download apache spark and getting started
 
 ---
 
@@ -58,5 +58,3 @@ Transformations can be classified as having either **narrow dependencies** or **
 - grouBy() or orderBy() instruct Spark to perform **wide** transformations, where data from other partitions is read in, combined, and written to disk. These transformations will force a shuffle of data from each of the executor's partitions across the cluster so they requires output from other partitions to compute the final aggregation.
 
 ![alt text](imgs/chapter2/narrow_vs_wide_transformations.png)
-
-# 3. The Spark UI
